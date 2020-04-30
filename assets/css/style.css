@@ -1,0 +1,81 @@
+body{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    font-family: 'Maiden Orange', cursive;
+    
+}
+
+
+.jumbotron{
+    background-image: url("../images/preview-262911-aqhQ0V2QPe-high_0007.jpg");
+    background-size: cover;
+    height: 300px;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'UnifrakturMaguntia', cursive;
+    color:rgb(242, 255, 0);
+    padding: 5px;
+}
+
+h3{
+    color:rgb(242, 255, 0);
+    font-size: 30px;
+    padding: 5px;
+}
+
+p{
+    color:rgb(242, 255, 0);
+    font-size: 22px;
+}
+
+
+#message1{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(63, 243, 9);
+}
+
+#message2{
+    text-align: center;
+    color: rgb(37, 31, 2);
+
+}
+
+#userScoreCol, #rdnNumberCol{
+    background-color: black;
+    height: 120px;
+    text-align: center;
+    color:rgb(242, 255, 0);
+    font-size: 30px;
+    padding: 5px;
+}
+
+.crystalPic{
+   text-align: center;
+}
+
+#winScore, #losseScore{
+    background-color: black;
+    height: 80px;
+    text-align: center;
+    color:rgb(242, 255, 0);
+    font-size: 30px;
+    padding: 5px;
+}
+
+#resetAlls{
+    text-align: center; 
+}
+
+#resetBtn{
+    background-color: rgb(224, 224, 51);
+    color:black;
+}
+
+#resetBtn:hover{
+    background-color: rgb(232, 27, 198);
+	border-color: rgb(228, 32, 186);
+}
+

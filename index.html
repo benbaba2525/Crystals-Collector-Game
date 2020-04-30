@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!--Added link to Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!--Added link to to Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Maiden+Orange&display=swap" rel="stylesheet">
+  <!--Added link to CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>Crystals Collector Game</title>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1><strong>Crystals Collector Game</strong></h1>
+          <p>You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. 
+             You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+             The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will charge the values of each crystal.
+          </p>
+      <div class="container">
+
+ <!-- Pop up Message You Win or Lose -->
+
+           <div class="row">
+             <div class="col-md-12 mt-5">
+                <h3 id="message1"><strong></strong></h3>
+                
+             </div>
+          </div>
+        
+
+  <!-- Random Number and Score Column-->
+        <div class="row first">
+            <div class="col-md-3 mt-5" id = "userScoreCol">
+              <h3>Your Total Score</h3>
+              <h3 id="userScore">0</h3>
+            </div>
+            <div class="col-md-3 mt-5"></div>
+            <div class="col-md-3 mt-5"></div>
+            <div class="col-md-3 mt-5" id="rdnNumberCol">
+                <h3>Random Number</h3>
+                <h3 id="randomNumber"></h3>
+            </div>
+               
+      
+  <!-- Crystal Buttons-->
+            <div class="col-md-3 mt-5 crystalPic">
+              <img  src="assets/images/redDiamond.png" class="btn" id ="redCrystal" alt = "Red Crystal">
+            </div>
+            <div class="col-md-3 mt-5 crystalPic">
+              <img src="assets/images/greenDiamond .png" class="btn" id ="greenCrystal" alt = "Green Crystal" >
+            </div>
+            <div class="col-md-3 mt-5 crystalPic">
+              <img  src="assets/images/purpleDiamond.png" class="btn" id ="purpleCrystal" alt = "Purple Crystal">
+            </div>
+            <div class="col-md-3 mt-5 crystalPic">
+              <img src="assets/images/yellow_jewel.png" class="btn" id ="yellowCrystal" alt = "Yellow Crystal">
+            </div>
+
+           </div>
+        </div>
+           
+
+  <!-- New Row To Store Wins and Losses: -->
+              
+	        <div class="row" id="gameStats">
+             <div class="col-md-3 mt-3" ><h3 id="winScore">Wins: 0</h3></div>
+             <div class="col-md-3 mt-3"></div>
+             <div class="col-md-3 mt-3"></div>
+             <div class="col-md-3 mt-3"><h3 id="losseScore">Losses: 0</h3></div>
+          </div>
+       
+  <!-- New Row To Reset Game -->
+          <div class="row">
+            <div class="col-md-12" id="resetAlls">
+              <button type="button" class="btn btn-primary btn-lg" id="resetBtn">Reset GAME!</button>
+            </div>
+          </div>
+  <!-- Pop up messasg show -->
+          <div class="row">
+            <div class="col-md-12 mt-3">
+            <p id="message2"></p>
+            </div>
+          </div>
+          
+    </div>  
+
+    
+
+<!--Added link to Javascript -->
+<script type="text/javascript" src="assets/javascript/game.js">
+
+</script>  
+</body>
+</html>
