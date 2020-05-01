@@ -16,7 +16,7 @@ $("#randomNumber").html(rdnNumber);
 
 
 
-// // Creates each crystal a hidden value, a random number betwee 1-12
+// // Creates each crystal a hidden value, a random number between 1-12
 var redCrystal = Math.floor(Math.random() * 12) +1;  
 var greenCrystal = Math.floor(Math.random() * 12) +1;  
 var purpleCrystal = Math.floor(Math.random() * 12) +1;  
