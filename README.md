@@ -1,4 +1,5 @@
 # Crystals Collector Game. 
+<a target="_blank" rel="nofollow" href="https://benbaba2525.github.io/Crystals-Collector-Game/">Check it out on Live</a>
 
 The player will have to guess the number and make it equal to the random number that the computer given.
 
